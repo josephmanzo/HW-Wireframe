@@ -1,3 +1,29 @@
 body {
     background-color: gray
 }
+
+.center {
+    margin: auto;
+}
+
+.section {
+    float: left;
+}
+
+.aside {
+    float: right;
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+div {
+    background-color: white;
+    width: 750px;
+    height: 50px;
+
+
+}
