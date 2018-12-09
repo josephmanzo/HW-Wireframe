@@ -1,32 +1,110 @@
 body {
-    background-color: gray
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777;
+    background: #777;
+    font-size: 18px;
+
 }
 
-.center {
-    margin: auto;
+.header {
+    padding-top: 15px;
+    text-align: center;
+    background: #ebebeb;
+    width: 960px;
+    height: 35px;
+    order: 3px solid green;
+    margin-bottom: 10px;
+    margin-left: 130px;
+}
+
+.nav {
+    padding-top: 15px;
+    text-align: center;
+    background: #ebebeb;
+    width: 960px;
+    height: 35px;
+    order: 3px solid green;
+    margin-bottom: 20px;
+    margin-left: 130px; 
+
+}
+
+.container {
+    text-align: center;
+    background: #ebebeb;
+    width: 960px;
+    margin-left: 130px;
+
 }
 
 .section {
     float: left;
+    padding-top: 30px;
+    text-align: center;
+    background: #ebebeb;
+    width: 495px;
+    height: 240px;
+    order: 3px solid green;
 
+}
+
+.article {
+    background: #777;
+    width: 475px;
+    height: 160px;
+    order: 3px solid green;
+    margin-top: 15px;
+    margin-left: 9px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #ebebeb;
+}
+
+.h {
+    height: 40px;
+    text-align: center;
+    color: #777;
+    background: #ebebeb;
+    padding-top: 15px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.paragraph {
+    height: 40px;
+    text-align: center;
+    color: #777;
+    background: #ebebeb;
+    padding-top: 15px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .aside {
-    float: left;
-    margin: 10px;
-    width: 50%;
+    background: #ebebeb;
+    width: 440px;
+    height: 240px;
+    order: 3px solid green;
+    margin-left: 5px;
+    padding-top: 30px;
+    color:#777;
 }
 
-.clearfix::after{
-    content: "";
-    display: block;
-    clear: both;
+#left {
+    float: right;
 }
 
-div {
-    background-color: white;
-    width: 750px;
-    height: 50px;
-    margin: 10px;
-
+.footer {
+    padding-top: 15px;
+    text-align: center;
+    background: #ebebeb;
+    width: 960px;
+    height: 35px;
+    order: 3px solid green;
+    margin-top: 310px;
+    margin-left: 130px;
 }
+
